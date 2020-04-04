@@ -1,0 +1,2 @@
+1. I have completely installed Ubuntu 16.04.
+2. I am up on Git.

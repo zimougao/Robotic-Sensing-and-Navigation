@@ -1,0 +1,12 @@
+<launch>
+    <!-- setup serials port for IMU and GPS  -->
+    <arg name="IMU_port" default="/dev/ttyUSB0" />
+    <arg name="GPS_port" default="/dev/ttyUSB1" />
+
+    <node pkg="lab2_hw" name="gps_driver" type="gps_node.py">
+        <param name="port"        value="$(GPS_port)" />
+    </node>
+    <node pkg="lab2_hw" name="imu_driver" type="imu_node.py">
+        <param name="port"        value="$(IMU_port)" />
+    </node>
+</launch>

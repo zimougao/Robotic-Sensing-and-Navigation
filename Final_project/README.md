@@ -1,6 +1,4 @@
-# Final Project
-
-**openvslam**
+# Customized Openvslam  
 
 ## Requirements for OpenVSLAM
 
